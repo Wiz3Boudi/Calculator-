@@ -81,7 +81,7 @@ function Delete() {
     operation = null;
     updateDisplay();
   };
-  currentValue = '';
+  currentValue = ''
   updateDisplay();
 }
 function updateDisplay() {
