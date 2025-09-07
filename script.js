@@ -79,6 +79,7 @@ function Delete() {
   if (previousValue && operation != null && currentValue === '') {
     previousValue = '';
     operation = null;
+    currentValue = '';
     updateDisplay();
   };
   currentValue = ''
@@ -88,3 +89,4 @@ function updateDisplay() {
   document.getElementById("currentValue").value = currentValue;
   document.getElementById('previousValue').value = previousValue;
 }
+
